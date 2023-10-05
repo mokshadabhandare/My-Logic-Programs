@@ -1,4 +1,5 @@
 //Program to calculate the volume of sphereProgram to calculate the volume of sphere
+//V=4/3πr3
 
 const pi=3.14;
 
