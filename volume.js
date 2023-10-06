@@ -5,6 +5,11 @@ const pi=3.14;
 
 let r=parseInt(prompt("Enter the radius"));
 
-formula=4/3*pi*r*r*r;
+function sphere(r)
+{
+let formula=4/3*pi*r*r*r;
+return formula;
+}
 
+formula=sphere(r);
 document.write("Volume of sphere","<br>"+formula);

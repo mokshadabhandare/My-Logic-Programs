@@ -3,6 +3,11 @@
 
 let s=parseInt(prompt("Enter side of the square"));
 
-formula=s*s;
+function sqaure(s)
+{
+formula =s*s;
+return formula;
+}
 
+formula=square(s);
 document.write("Area of sqaure","<br>"+formula);

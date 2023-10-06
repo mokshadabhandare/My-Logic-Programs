@@ -5,9 +5,13 @@
 let b=parseInt(prompt("Enter base"));
 let h=parseInt(prompt("Enter height"));
  
-f=1/2*(b*h);
+function triangle(b,h)
+{
+let f=1/2*(b*h);
+return f;
+}
 
-
+f=triangle(b,h);
 document.write("Area of triangle","<br>"+f);
 
 
