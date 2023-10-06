@@ -5,6 +5,11 @@
 
 let a=parseInt(prompt("Enter area"));
 
-f=6*a*a;
+function area(a)
+{
+let f=6*a*a;
+return f;
+}
 
+f=area(a);
 document.write("surface area of a cube","<br>"+f);
