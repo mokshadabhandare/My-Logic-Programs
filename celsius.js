@@ -4,6 +4,12 @@
 
 let c=parseInt(prompt("Enter Celsius"));
 
-f=(9/5)*c+32;
+function celsius(c)
+{
+    let f=(9/5)*c+32;
+    return f;
+}
+
+f=celsius(c)
 
 document.write("Converted celsius into fahrenheit","<br>"+f);

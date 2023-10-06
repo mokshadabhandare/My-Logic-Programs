@@ -7,7 +7,13 @@ let r=parseInt(prompt("Enter the radius"));
 
 let h=parseInt(prompt("Enter the height"));
 
+function cone(r,h)
+{
 formula=1/3*pi*r*r*h;
+return formula;
+}
+
+formula=cone(r,h);
 
 document.write("Volume of cone","<br>"+formula);
 

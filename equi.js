@@ -4,9 +4,13 @@
 
 let a=parseInt(prompt("Enter area"));
  
-f=( 1.73 * a*a) / 4  ;
+function Equi(a)
+{
+let f=( 1.73 * a*a) / 4  ;
+return f;
+}
 
-
+f=Equi(a);
 document.write("Area of equilateral triangle is","<br>"+f);
 
 

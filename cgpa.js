@@ -3,6 +3,11 @@
 
 let CGPA=parseInt(prompt("Enter your CGPA"));
  
-f=CGPA*9.5;
+function percentage(CGPA)
+{
+let f=CGPA*9.5;
+return f;
+}
 
+f=percentage(CGPA);
 document.write("Converted CGPA into percentage","<br>"+f);

@@ -7,8 +7,14 @@ const pi=3.14;
 let r=parseInt(prompt("Enter radius"));
 let h=parseInt(prompt("Enter height"));
  
-f=2*pi*r*(r+h);
 
+function cylinder(r,h)
+{
+f=2*pi*r*(r+h);
+return f;
+}
+
+f=cylinder(r,h);
 
 document.write("surface area of cylinder","<br>"+f);
 
