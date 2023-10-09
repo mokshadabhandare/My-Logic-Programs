@@ -3,7 +3,7 @@
 
 let s=parseInt(prompt("Enter side of the square"));
 
-function sqaure(s)
+function square(s)
 {
 formula =s*s;
 return formula;
