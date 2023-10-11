@@ -7,9 +7,9 @@ function sumDigit(num)
     let rem,product=1;
     while(num)
     {
-      rem = num%10;
+      rem=num%10;
       product=product*rem;
-      num = (num/10);
+      num =Math.floor(num/10);
     }
     document.write(product);
 }
