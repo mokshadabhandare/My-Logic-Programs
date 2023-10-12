@@ -1,3 +1,6 @@
+//print all factors of number.
+
+
 let num=parseInt(prompt("Enter number"));
 
 function PrintFactor(num)
