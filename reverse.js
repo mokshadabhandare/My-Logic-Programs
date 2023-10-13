@@ -1,4 +1,4 @@
-//program to print all natural no from 1 to n in reverse order.
+//2.program to print all natural no from 1 to n in reverse order.
 
 
 let num=parseInt(prompt("Enter number"));

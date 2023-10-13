@@ -1,4 +1,4 @@
-//program to print all natural no from 1 to n.
+//1.program to print all natural no from 1 to n.
 
 
 let num=parseInt(prompt("Enter number"));

@@ -2,7 +2,7 @@
 
 let i=1;
 
-function even(i)
+function odd(i)
 {
     while(i<=100)
     {
@@ -13,4 +13,4 @@ function even(i)
         i++;
    }
 }
-even(i);
+odd(i);
