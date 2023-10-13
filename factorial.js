@@ -9,7 +9,7 @@ function PrintFactor(num)
       let fact = 1;
     for (i = 1; i <= num; i++) 
     {
-        fact *= i;
+        fact=fact* i;
     }
     document.write( "The factorial of number is" +fact);
 }
