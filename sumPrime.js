@@ -1,18 +1,31 @@
 //sum of the prime number.
 
+//print sum of the prime no upto 1 to n..
 
-let n=parseInt(prompt("Enter number"));
+let n=parseInt(prompt("Enter the number"));
 
-let sum=0;
-function sumPrime(n){
-    
-    for(let i=2; i<=n; i++)
+function Isprime(num)
+{
+    for(let i=2; i<num/2; i++)
     {
-      if(n%i!==0)
+      if(num%i==0)
       {
-           sum=sum+i;
+    return false;
       }
-    document.write("Sum of prime"+sum,"<br>");
+     else
+    {
+   return true; 
     }
+} 
 }
-sumPrime(n);
+    sum=0;
+    for(i=0;i<=n;i++)
+    {
+    if(Isprime(i))
+    {
+      sum=sum+i;
+    }
+    document.write(+sum," ");
+    }
+
+
