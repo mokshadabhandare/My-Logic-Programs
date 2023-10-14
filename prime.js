@@ -9,6 +9,7 @@ function prime(num)
       if(num%i==0)
       {
     document.write(false);
+    break;
       }
       else
     {

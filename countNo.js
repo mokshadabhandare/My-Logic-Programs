@@ -1,7 +1,7 @@
 //Count number of digit in number
 
 
-let iNo=parseInt(prompt("Enter number"));
+// let iNo=parseInt(prompt("Enter number"));
 
 function CountDigit(iNo)
 {
@@ -11,6 +11,6 @@ function CountDigit(iNo)
         i++;
         iNo=Math.round(iNo/10);
     }
-    document.write("Numbers in digit is"+i);
+    console.log("Numbers in digit is"+i);
 }
-CountDigit(iNo)
+CountDigit(123)
