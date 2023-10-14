@@ -3,7 +3,7 @@
 
 let n=parseInt(prompt("Enter number"));
 
-function Perfect() {
+function Perfect(n) {
     
     var sum = 0;
     for (var i = 0; i < n; i++) {
@@ -20,4 +20,4 @@ function Perfect() {
         document.write("The number is not perfect");
 }
 }
-Perfect();
+Perfect(n);

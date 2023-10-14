@@ -3,7 +3,7 @@
 
 let n=parseInt(prompt("Enter number"));
 let i=1;
-function Perfect() {
+function Perfect(n) {
     
     var sum = 0;
     while(i<=n) {
@@ -17,4 +17,4 @@ function Perfect() {
     }
     i++;
 }
-Perfect();
+Perfect(n);
