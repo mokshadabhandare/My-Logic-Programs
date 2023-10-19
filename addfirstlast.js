@@ -1,5 +1,3 @@
-
-
 function count(num)
 {
     let cnt=0;
