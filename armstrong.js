@@ -1,4 +1,5 @@
-function isArmstrong(number) { 
+function isArmstrong(number) 
+{ 
 	let temp = number; 
 	let o = order(temp) 
 	let sum = 0; 
