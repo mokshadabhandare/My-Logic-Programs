@@ -1,7 +1,7 @@
 //Count number of digit in number
 
 
-// let iNo=parseInt(prompt("Enter number"));
+//let iNo=parseInt(prompt("Enter number"));
 
 function CountDigit(iNo)
 {
