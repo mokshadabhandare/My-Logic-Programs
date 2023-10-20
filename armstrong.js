@@ -3,7 +3,6 @@ function isArmstrong(number) {
 	let o = order(temp) 
 	let sum = 0; 
 
-	
 	while (temp) { 
 		remainder = temp % 10; 
 
